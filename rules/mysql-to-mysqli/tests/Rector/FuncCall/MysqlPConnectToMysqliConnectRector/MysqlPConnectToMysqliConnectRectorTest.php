@@ -9,6 +9,9 @@ use Rector\MysqlToMysqli\Rector\FuncCall\MysqlPConnectToMysqliConnectRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
+/**
+ * @requires PHP < 8.0
+ */
 final class MysqlPConnectToMysqliConnectRectorTest extends AbstractRectorTestCase
 {
     /**
