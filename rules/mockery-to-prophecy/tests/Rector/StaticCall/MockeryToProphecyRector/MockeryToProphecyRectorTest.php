@@ -9,6 +9,9 @@ use Rector\MockeryToProphecy\Rector\StaticCall\MockeryCloseRemoveRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
+/**
+ * @requires PHP < 8.0
+ */
 final class MockeryToProphecyRectorTest extends AbstractRectorTestCase
 {
     /**
