@@ -10,6 +10,9 @@ use Rector\Naming\Naming\PropertyNaming;
 use Rector\Naming\ValueObject\ExpectedName;
 use Symplify\PackageBuilder\Testing\AbstractKernelTestCase;
 
+/**
+ * @requires PHP < 8.0
+ */
 final class PropertyNamingTest extends AbstractKernelTestCase
 {
     /**
