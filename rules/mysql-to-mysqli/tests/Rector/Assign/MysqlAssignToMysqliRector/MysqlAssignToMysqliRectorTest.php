@@ -9,6 +9,9 @@ use Rector\MysqlToMysqli\Rector\Assign\MysqlAssignToMysqliRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
+/**
+ * @requires PHP < 8.0
+ */
 final class MysqlAssignToMysqliRectorTest extends AbstractRectorTestCase
 {
     /**
